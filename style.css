@@ -1,0 +1,168 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: sans-serif
+}
+.contain
+{
+	width:1280px;
+	min-height: 600px;
+	background-color:black;
+	margin: 25px auto 0;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.contain .box1
+{
+	position: relative;
+	width: 1255px;
+	height:300px;
+	background: #fff;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+		
+}
+
+.contain .box
+{
+	position: relative;
+	width: 245px;
+	height:250px;
+	background: black;
+	margin: 5px;
+	box-sizing: border-box;
+	display: inline-block;
+		
+}
+.contain .box .dining
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .dining img
+{
+	width: 245px;
+	height:250px;
+	transition: transform 2s;
+}
+.contain .box .dining img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .bed
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .bed img
+{
+	width: 245px;
+	height:250px;
+	transition: transform 2s;
+}
+.contain .box .bed img:hover
+{
+	transform: scale(1.1);
+}
+
+.contain .box .form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 25px;
+	transition: transform 0.75s;
+	overflow: hide;
+	margin-left: 80px;
+}
+.contain .box input[type="submit"]:hover
+{
+    cursor:context-menu;
+    background: black;
+    color: aquamarine;
+	transform: scale(1.05);
+
+}
+.contain .box .form input[type="submit2"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 25px;
+	transition: transform 0.75s;
+	overflow: hide;
+    margin-left: 80px;
+	
+	
+}
+.contain .box input[type="submit2"]:hover
+{
+    cursor:context-menu;
+    background: black;
+    color: aquamarine;
+	transform: scale(1.05);
+
+}
+.contain .box .facility
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .facility img
+{
+	width: 245px;
+	height:250px;
+	transition: transform 2s;
+}
+.contain .box .facility img:hover
+{
+	transform: scale(1.1);
+}.contain .box .deco
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .deco img
+{
+	width: 245px;
+	height:250px;
+	transition: transform 2s;
+}
+.contain .box .deco img:hover
+{
+	transform: scale(1.1);
+}
+
+.contain .box1 .aero
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box1 .aero img
+{
+	width: 1255px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box1 .aero img:hover
+{
+	transform: scale(1.021);
+}
+
+P
+{
+	color:white;
+	margin-left:28px;
+	font-family: sans-serif;
+	font-size: 35;	
+	cursor: context-menu;
+}

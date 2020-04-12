@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Sign up | Lovely Airways</title>
+   
+    
+    <script>
+
+        function gotoPage() {
+          
+			alert("Booking Done");
+			window.open("template3.html");
+        }
+		
+    </script>
+</head>
+    <body>
+		 <link rel="stylesheet"  href="book.css"> 
+    <img src="clouds.jpg.jpg" alt="">
+    <div class="booking-box">
+        <h1>BOOK</h1>
+            <form autocomplete="off">
+            <p>First name</p>
+            <input type="text" name="First name" placeholder="Enter First name">
+            <p>Last name</p>
+            <input type="text" name="Last name" placeholder="Enter Last name">
+				<p>Gender
+   
+     <select>
+				<option>Male</option>
+		 <option>Femaler</option></select></p>
+            <p>Aadhaar / PAN number</p>
+            <input type="text" name="Aadhaar / PAN number" placeholder="XXXX XXXX XXXX XXXX">
+            <p>Email id</p>
+            <input type="text" name="Email id" placeholder="Enter Email id">
+            <p>Phone no.</p>
+            <input type="text" name="phone no" placeholder="XXXXXXXXXX">
+				<p>Food
+     <select>
+				<option>Yes</option>
+		 <option>No</option></select></p>
+				<p>Class
+     <select>
+				<option>Business</option>
+		 <option>Economy</option></select></p>
+				<p>From</p><input type="text">
+				<p>To</p><input type="text">
+				<p>Departure</p><input type="text" placeholder="XX/XX/XXXX">
+					<p>Pay Using
+    <select>
+				<option>Credit Card</option>
+		<option>Debit Card</option></select></p>
+				<p>CVV</p>
+				<input type="text" placeholder="XXX">
+				
+				
+          
+            <input type="submit" name="PAY" value="PAY" onclick="gotoPage()">
+                
+            </form>
+        
+        
+        </div>
+    
+    </body>
+</html>

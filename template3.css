@@ -1,0 +1,118 @@
+body
+{
+	background-color: saddlebrown;
+}
+.contain
+{
+	width:1280px;
+	height:650px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	
+	
+}
+.contain .box
+{
+	position: relative;
+	width:400px;
+	height:300px;
+	margin:10px;
+	background-color: aqua;
+	
+box-sizing: border-box;
+	display: inline-block;
+		
+}
+.contain .box .book
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .book img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .book img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .edit
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .edit img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .edit img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .cancel
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .cancel img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .cancel img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .offer
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .offer img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .offer img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .feed
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .feed img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .feed img:hover
+{
+	transform: scale(1.1);
+}
+.contain .box .help
+{
+	position: relative;
+	overflow: hidden;
+}
+.contain .box .help img
+{
+	width: 400px;
+	height:300px;
+	transition: transform 2s;
+}
+.contain .box .help img:hover
+{
+	transform: scale(1.1);
+}

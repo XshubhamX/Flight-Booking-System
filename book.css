@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+body img {
+    width: 1300px;
+    height: 1200px;;
+}
+
+.booking-box{
+    width: 350px;
+    height: 1150px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  position: absolute;
+    bottom:-85%;
+    left: 40%;
+    
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin:7 ;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.booking-box p{
+    margin: 1;
+    padding: 0;
+    font-weight: bold;
+}
+.booking-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.booking-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.booking-box select
+{
+	 border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin: 10;
+    color:skyblue
+}
+
+
+.booking-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.booking-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
